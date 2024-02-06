@@ -1,0 +1,50 @@
+header {
+    background-color: var(--header-background-color);
+    color: var(--nav-link-hover-color);
+    padding: 10px;
+    box-sizing: border-box;
+}
+nav{
+    margin: 20px;
+}
+nav a{
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 20px;
+}
+nav a:hover{
+    color: var(--nav-link-hover-color);
+    background-color: var(--nav-link-hover-background);
+}
+
+footer {
+    width: 100vw;
+    float: left;
+    color: var(--footer-color);
+    background-color: var(--footer-background-color);
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.product {
+    float: left;
+    margin: 30px;
+    background-color: var(--container-background);
+    padding: 20px;
+    box-shadow: var(--product-box-shadow);
+}
+p{
+    margin: 0;
+}
+button{
+    margin: 5px;
+    background-color: var(--button-background);
+    color: var(--container-background);
+    padding: 10px 20px 10px 20px;
+    border: var(--button-background);
+}
+
+button:hover{
+    background-color: var(--button-hover-background);        
+}
